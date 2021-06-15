@@ -5,3 +5,4 @@
 - Utilizamos **Git**
 ## Datos personales
 - Vivo en Madrid
+- [Perfil de linkedin] (https://)
