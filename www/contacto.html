@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario de contacto</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="mis datos de contacto" />
+    <meta name="keywords" content="curso, softtek, vector, contacto" />
+</head>
+
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <a href="./"> Mi perfil </a>
+            <a href="./trabajos.html">Mi portfolio</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <form action="un/endpoint/que-no-existe/" method="POST">
+            <fieldset>
+                <label for="nombre">Tu nombre:</label>
+                <input name="nombre" id="nombre">
+                <label for="empresa">Tu empresa:</label>
+                <input name="empresa" id="empresa">
+                <label for="oferta">Tu oferta:</label>
+                <input name="oferta" id="oferta" type="number">
+                <label for="inicio">Fecha Incorporación:</label>
+                <input name="inicio" id="inicio" type="date">
+                <label for="remoto">Permite en remoto:</label>
+                <input name="remoto" id="remoto" type="checkbox">
+            </fieldset>
+            <button>Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>Para Softtek y Vector por Alberto Basalo </p>
+    </footer>
+</body>
+
+</html>
