@@ -6,7 +6,7 @@
 ////////////////////////////////////////////////////////////////////////
 
 
-// 1.- cambiamos  palabra function por var, porque en las funciones con nombre
+// 1.- cambiamos  palabra function por let, porque en las funciones con nombre
 // se tratan las expresiones arrow como variables, usando la palabra let
 // 2.-  luego del nombre de la funcion,  agregamos un signo igual
 // 3.-  luego de los parametros agregamos la flecha                    
